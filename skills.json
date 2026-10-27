@@ -1,0 +1,77 @@
+{
+  "clear_rule": "A skill is cleared after 2 consecutive sheets with 0 misses on it. Cleared skills get 1-2 review questions every few sheets; a miss on review sets it back to active.",
+  "skills": [
+    {
+      "id": "neg-to-pos",
+      "topic": "exponents",
+      "name": "Rewrite a negative exponent as a positive exponent",
+      "examples": ["7^{-2} = \\frac{1}{7^{2}}", "\\frac{1}{x^{-3}} = x^{3}", "3y^{-4} = \\frac{3}{y^{4}}"],
+      "status": "active",
+      "streak": 0,
+      "history": []
+    },
+    {
+      "id": "pos-to-neg",
+      "topic": "exponents",
+      "name": "Rewrite a positive exponent as a negative exponent",
+      "examples": ["\\frac{1}{6^{4}} = 6^{-4}", "2^{5} = \\frac{1}{2^{-5}}"],
+      "status": "active",
+      "streak": 0,
+      "history": []
+    },
+    {
+      "id": "eval-neg",
+      "topic": "exponents",
+      "name": "Evaluate a number with a negative exponent",
+      "examples": ["2^{-3} = \\frac{1}{8}", "\\frac{1}{5^{-2}} = 25"],
+      "status": "active",
+      "streak": 0,
+      "history": []
+    },
+    {
+      "id": "simplify-product",
+      "topic": "exponents",
+      "name": "Simplify products with mixed exponents (add exponents)",
+      "examples": ["x^{5} \\cdot x^{-3} = x^{2}"],
+      "status": "active",
+      "streak": 0,
+      "history": []
+    },
+    {
+      "id": "simplify-quotient",
+      "topic": "exponents",
+      "name": "Simplify quotients with mixed exponents (subtract exponents)",
+      "examples": ["\\frac{x^{2}}{x^{-4}} = x^{6}"],
+      "status": "active",
+      "streak": 0,
+      "history": []
+    },
+    {
+      "id": "simplify-power",
+      "topic": "exponents",
+      "name": "Simplify a power of a power with negative exponents (multiply exponents)",
+      "examples": ["(x^{-2})^{3} = \\frac{1}{x^{6}}"],
+      "status": "active",
+      "streak": 0,
+      "history": []
+    },
+    {
+      "id": "to-sci",
+      "topic": "scientific notation",
+      "name": "Write a standard-form number in scientific notation",
+      "examples": ["45,000 = 4.5 \\times 10^{4}", "0.0072 = 7.2 \\times 10^{-3}"],
+      "status": "active",
+      "streak": 0,
+      "history": []
+    },
+    {
+      "id": "from-sci",
+      "topic": "scientific notation",
+      "name": "Write a number in scientific notation in standard form",
+      "examples": ["3.2 \\times 10^{5} = 320,000", "4 \\times 10^{-3} = 0.004"],
+      "status": "active",
+      "streak": 0,
+      "history": []
+    }
+  ]
+}

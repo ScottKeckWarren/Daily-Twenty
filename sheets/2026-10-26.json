@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-26",
+  "title": "Negative Exponents",
+  "reminder": [
+    "a^{-n} = \\frac{1}{a^{n}}",
+    "\\frac{1}{a^{-n}} = a^{n}",
+    "a^{m} \\cdot a^{n} = a^{m+n}",
+    "\\frac{a^{m}}{a^{n}} = a^{m-n}",
+    "(a^{m})^{n} = a^{mn}"
+  ],
+  "example": {
+    "label": "Example: simplify and write with positive exponents",
+    "steps": ["\\frac{x^{3}}{x^{-2}} \\cdot x^{-7}", "= x^{3-(-2)} \\cdot x^{-7}", "= x^{5} \\cdot x^{-7}", "= x^{-2}", "= \\frac{1}{x^{2}}"]
+  },
+  "sections": [
+    {
+      "directions": "Rewrite using only positive exponents.",
+      "questions": [
+        {"n": 1, "skill": "neg-to-pos", "expr": "7^{-2}", "answer": "\\frac{1}{7^{2}}"},
+        {"n": 2, "skill": "neg-to-pos", "expr": "x^{-5}", "answer": "\\frac{1}{x^{5}}"},
+        {"n": 3, "skill": "neg-to-pos", "expr": "\\frac{1}{4^{-3}}", "answer": "4^{3}"},
+        {"n": 4, "skill": "neg-to-pos", "expr": "3y^{-4}", "answer": "\\frac{3}{y^{4}}", "note": "only y moves; 3 stays on top"},
+        {"n": 5, "skill": "neg-to-pos", "expr": "a^{-2}b^{3}", "answer": "\\frac{b^{3}}{a^{2}}"}
+      ]
+    },
+    {
+      "directions": "Rewrite using a negative exponent.",
+      "questions": [
+        {"n": 6, "skill": "pos-to-neg", "expr": "\\frac{1}{6^{4}}", "answer": "6^{-4}"},
+        {"n": 7, "skill": "pos-to-neg", "expr": "\\frac{1}{m^{2}}", "answer": "m^{-2}"},
+        {"n": 8, "skill": "pos-to-neg", "expr": "2^{5}", "answer": "\\frac{1}{2^{-5}}"}
+      ]
+    },
+    {
+      "directions": "Evaluate. Write your answer as a whole number or a fraction.",
+      "questions": [
+        {"n": 9, "skill": "eval-neg", "expr": "2^{-3}", "answer": "\\frac{1}{8}"},
+        {"n": 10, "skill": "eval-neg", "expr": "10^{-2}", "answer": "\\frac{1}{100}"},
+        {"n": 11, "skill": "eval-neg", "expr": "(-3)^{-2}", "answer": "\\frac{1}{9}", "note": "negative base squared is positive"},
+        {"n": 12, "skill": "eval-neg", "expr": "\\frac{1}{5^{-2}}", "answer": "25"}
+      ]
+    },
+    {
+      "directions": "Simplify. Write your answer using only positive exponents.",
+      "questions": [
+        {"n": 13, "skill": "simplify-product", "expr": "x^{5} \\cdot x^{-3}", "answer": "x^{2}"},
+        {"n": 14, "skill": "simplify-product", "expr": "4^{-6} \\cdot 4^{2}", "answer": "\\frac{1}{4^{4}}", "note": "1/256 also correct"},
+        {"n": 15, "skill": "simplify-product", "expr": "a^{-2} \\cdot a^{-5}", "answer": "\\frac{1}{a^{7}}"},
+        {"n": 16, "skill": "simplify-quotient", "expr": "\\frac{y^{3}}{y^{7}}", "answer": "\\frac{1}{y^{4}}"},
+        {"n": 17, "skill": "simplify-quotient", "expr": "\\frac{x^{2}}{x^{-4}}", "answer": "x^{6}"},
+        {"n": 18, "skill": "simplify-quotient", "expr": "\\frac{n^{-3}}{n^{-8}}", "answer": "n^{5}"},
+        {"n": 19, "skill": "simplify-power", "expr": "(x^{-2})^{3}", "answer": "\\frac{1}{x^{6}}"},
+        {"n": 20, "skill": "simplify-power", "expr": "(m^{-3})^{-2}", "answer": "m^{6}"}
+      ]
+    }
+  ]
+}
