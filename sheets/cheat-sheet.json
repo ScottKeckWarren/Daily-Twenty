@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-02",
+  "title": "Alice's Math Cheat Sheet",
+  "cards": [
+    {
+      "heading": "Negative Exponents",
+      "rules": [
+        "a^{-n} = \\frac{1}{a^{n}}\\text{      }\\frac{1}{a^{-n}} = a^{n}",
+        "\\text{Negative exponent? Move the base across}",
+        "\\text{the fraction bar and make the exponent +.}"
+      ],
+      "examples": [
+        "\\text{Rewrite: }7^{-2} = \\frac{1}{7^{2}}",
+        "\\text{Evaluate: }2^{-3} = \\frac{1}{2^{3}} = \\frac{1}{8}",
+        "\\text{Evaluate: }\\frac{1}{5^{-2}} = 5^{2} = 25"
+      ],
+      "tips": [
+        "\\text{Only the base moves: }3y^{-4} = \\frac{3}{y^{4}}",
+        "\\text{It's not negative: }2^{-3} ≠ -8"
+      ]
+    },
+    {
+      "heading": "Exponent Rules (same base)",
+      "rules": [
+        "\\text{Multiply: add  }a^{m} \\cdot a^{n} = a^{m+n}",
+        "\\text{Divide: subtract  }\\frac{a^{m}}{a^{n}} = a^{m-n}",
+        "\\text{Power of a power: multiply  }(a^{m})^{n} = a^{m \\cdot n}",
+        "\\text{No exponent shown? It's 1: }x = x^{1}"
+      ],
+      "examples": [
+        "x^{5} \\cdot x^{-3} = x^{5+(-3)} = x^{2}",
+        "\\frac{x^{2}}{x^{-4}} = x^{2-(-4)} = x^{6}",
+        "(x^{-2})^{3} = x^{-6} = \\frac{1}{x^{6}}"
+      ]
+    },
+    {
+      "heading": "Multiplying & Dividing Monomials",
+      "rules": [
+        "\\text{Numbers: multiply or divide them.}",
+        "\\text{Exponents: add or subtract them.}"
+      ],
+      "examples": [
+        "6m^{4} \\cdot (-2m^{5}) = -12m^{9}",
+        "-8k \\cdot (-2k^{3}) = 16k^{4}",
+        "\\frac{12x^{7}}{3x^{2}} = 4x^{5}"
+      ],
+      "tips": [
+        "\\text{Negative × negative = positive}"
+      ]
+    },
+    {
+      "heading": "Scientific Notation",
+      "rules": [
+        "a \\times 10^{n}\\text{,  where }1 ≤ a < 10",
+        "\\text{Number ≥ 10: positive exponent}",
+        "\\text{Number < 1: negative exponent}",
+        "\\text{Exponent = places the decimal moves}"
+      ],
+      "examples": [
+        "45,000 = 4.5 \\times 10^{4}",
+        "0.0072 = 7.2 \\times 10^{-3}",
+        "3.2 \\times 10^{5} = 320,000",
+        "\\text{Multiply: multiply numbers, add exponents}",
+        "(5 \\times 10^{3})(6 \\times 10^{4}) = 30 \\times 10^{7}",
+        "\\text{          }= 3 \\times 10^{8}"
+      ],
+      "tips": [
+        "\\text{Number part ≥ 10? Move the decimal}",
+        "\\text{one place left and add 1 to the exponent.}"
+      ]
+    },
+    {
+      "heading": "Square & Cube Roots",
+      "rules": [
+        "\\sqrt{a}\\text{: what number times itself makes }a\\text{?}",
+        "\\sqrt[3]{a}\\text{: what number used 3 times makes }a\\text{?}",
+        "\\text{Perfect squares: 1, 4, 9, 16, 25, 36, 49,}",
+        "\\text{    64, 81, 100, 121, 144}",
+        "\\text{Perfect cubes: 1, 8, 27, 64, 125, 216,}",
+        "\\text{    343, 512, 729, 1000}"
+      ],
+      "examples": [
+        "\\sqrt{49} = 7\\text{   because }7 \\cdot 7 = 49",
+        "\\sqrt[3]{64} = 4\\text{   because }4 \\cdot 4 \\cdot 4 = 64",
+        "\\sqrt[3]{-8} = -2\\text{   because }(-2)(-2)(-2) = -8",
+        "\\sqrt{\\frac{1}{9}} = \\frac{1}{3}\\text{   because }\\frac{1}{3} \\cdot \\frac{1}{3} = \\frac{1}{9}"
+      ],
+      "tips": [
+        "\\sqrt{25} = 5\\text{, not }12.5\\text{ (don't divide by 2)}"
+      ]
+    },
+    {
+      "heading": "Multiplying Mixed Numbers",
+      "rules": [
+        "\\text{1. Change each to an improper fraction.}",
+        "\\text{2. Multiply tops, multiply bottoms.}",
+        "\\text{3. Simplify, then change back to mixed.}",
+        "\\text{Improper: }2\\frac{1}{3} = \\frac{2 \\cdot 3 + 1}{3} = \\frac{7}{3}"
+      ],
+      "examples": [
+        "2\\frac{1}{3} \\cdot 1\\frac{1}{2} = \\frac{7}{3} \\cdot \\frac{3}{2} = \\frac{21}{6} = \\frac{7}{2} = 3\\frac{1}{2}"
+      ],
+      "tips": [
+        "\\text{Don't multiply wholes and fractions apart:}",
+        "2\\frac{1}{3} \\cdot 1\\frac{1}{2} ≠ 2\\frac{1}{6}"
+      ]
+    },
+    {
+      "heading": "Dividing Mixed Numbers",
+      "rules": [
+        "\\text{1. Change each to an improper fraction.}",
+        "\\text{2. Keep, Change, Flip: keep the first,}",
+        "\\text{    change ÷ to ·, flip the second.}",
+        "\\text{3. Multiply, simplify, change back to mixed.}",
+        "\\text{Whole number? Put it over 1: }4 = \\frac{4}{1}"
+      ],
+      "examples": [
+        "3\\frac{1}{2} ÷ 1\\frac{3}{4} = \\frac{7}{2} ÷ \\frac{7}{4} = \\frac{7}{2} \\cdot \\frac{4}{7} = \\frac{28}{14} = 2",
+        "2\\frac{2}{3} ÷ 4 = \\frac{8}{3} \\cdot \\frac{1}{4} = \\frac{8}{12} = \\frac{2}{3}"
+      ],
+      "tips": [
+        "\\text{Flip only the second fraction, never the first.}"
+      ]
+    }
+  ]
+}

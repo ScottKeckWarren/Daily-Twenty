@@ -72,6 +72,24 @@
       "status": "active",
       "streak": 0,
       "history": []
+    },
+    {
+      "id": "monomials",
+      "topic": "exponents",
+      "name": "Multiply and divide monomials (multiply/divide coefficients, add/subtract exponents)",
+      "examples": ["y^{6} \\cdot y^{2} = y^{8}", "6m^{4} \\cdot (-2m^{5}) = -12m^{9}", "\\frac{12x^{7}}{3x^{2}} = 4x^{5}"],
+      "status": "active",
+      "streak": 0,
+      "history": []
+    },
+    {
+      "id": "sci-multiply",
+      "topic": "scientific notation",
+      "name": "Multiply numbers in scientific notation (multiply numbers, add exponents, re-normalize)",
+      "examples": ["(2 \\times 10^{3})(4 \\times 10^{5}) = 8 \\times 10^{8}", "(5 \\times 10^{3})(6 \\times 10^{4}) = 3 \\times 10^{8}"],
+      "status": "active",
+      "streak": 0,
+      "history": []
     }
   ]
 }

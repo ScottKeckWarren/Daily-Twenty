@@ -28,6 +28,15 @@ python3 -m venv .venv
 # -> output/2026-10-26.pdf
 ```
 
+## Color by number
+
+A sheet can include a color-by-number picture. Add `colors` (code, name, RGB, and the question numbers for that color) and `grid` (one string per row, one color code per square) to the sheet JSON. The picture goes on its own page after the questions, and every square is labeled with the answer to one of its color's questions. A student who can't find their answer in the grid knows to recheck it.
+
+```sh
+.venv/bin/python render.py sheets/2026-10-27-color-by-number.json        # student copy
+.venv/bin/python render.py sheets/2026-10-27-color-by-number.json --key  # colored-in picture
+```
+
 ## Writing questions
 
 Math expressions use a small LaTeX-like syntax:

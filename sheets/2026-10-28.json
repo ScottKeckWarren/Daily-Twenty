@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-28",
+  "title": "Scientific Notation & Multiplying Monomials",
+  "rule_line": true,
+  "reminder": [
+    "\\text{Scientific: }a \\times 10^{n}\\text{, }1 ≤ a < 10",
+    "\\text{Number ≥ 10: positive exponent}",
+    "\\text{Number < 1: negative exponent}",
+    "a^{m} \\cdot a^{n} = a^{m+n}",
+    "\\text{Multiplying: multiply the numbers,}",
+    "\\text{then add the exponents}"
+  ],
+  "example": {
+    "label": "Example: multiply in scientific notation",
+    "steps": [
+      "(4 \\times 10^{5})(3 \\times 10^{-2})",
+      "= (4 \\cdot 3) \\times 10^{5+(-2)}",
+      "= 12 \\times 10^{3}",
+      "= 1.2 \\times 10^{4}",
+      "\\text{Rule: multiply numbers, add exponents.}",
+      "\\text{12 is not less than 10, so move the decimal.}"
+    ]
+  },
+  "sections": [
+    {
+      "directions": "Write in scientific notation.",
+      "questions": [
+        {"n": 1, "skill": "to-sci", "expr": "5,700", "answer": "5.7 \\times 10^{3}", "rule": "number ≥ 10: positive exponent"},
+        {"n": 2, "skill": "to-sci", "expr": "906,000", "answer": "9.06 \\times 10^{5}", "rule": "number ≥ 10: positive exponent"},
+        {"n": 3, "skill": "to-sci", "expr": "0.081", "answer": "8.1 \\times 10^{-2}", "rule": "number < 1: negative exponent"},
+        {"n": 4, "skill": "to-sci", "expr": "0.0000043", "answer": "4.3 \\times 10^{-6}", "rule": "number < 1: negative exponent"}
+      ]
+    },
+    {
+      "directions": "Write in standard form.",
+      "questions": [
+        {"n": 5, "skill": "from-sci", "expr": "2.9 \\times 10^{6}", "answer": "2,900,000", "rule": "positive exponent: move decimal right"},
+        {"n": 6, "skill": "from-sci", "expr": "1.004 \\times 10^{4}", "answer": "10,040", "rule": "positive exponent: move decimal right"},
+        {"n": 7, "skill": "from-sci", "expr": "8 \\times 10^{-2}", "answer": "0.08", "rule": "negative exponent: move decimal left"},
+        {"n": 8, "skill": "from-sci", "expr": "3.75 \\times 10^{-4}", "answer": "0.000375", "rule": "negative exponent: move decimal left"}
+      ]
+    },
+    {
+      "directions": "Multiply. Simplify your answer.",
+      "questions": [
+        {"n": 9, "skill": "monomials", "expr": "b^{4} \\cdot b^{3}", "answer": "b^{7}", "rule": "add exponents"},
+        {"n": 10, "skill": "monomials", "expr": "2x^{5} \\cdot x^{4}", "answer": "2x^{9}", "rule": "multiply numbers, add exponents"},
+        {"n": 11, "skill": "monomials", "expr": "4a^{3} \\cdot 6a^{2}", "answer": "24a^{5}", "rule": "multiply numbers, add exponents"},
+        {"n": 12, "skill": "monomials", "expr": "-3m^{2} \\cdot 5m^{7}", "answer": "-15m^{9}", "rule": "multiply numbers, add exponents"},
+        {"n": 13, "skill": "monomials", "expr": "6n^{4} \\cdot (-2n^{5})", "answer": "-12n^{9}", "rule": "multiply numbers, add exponents"},
+        {"n": 14, "skill": "monomials", "expr": "-8k \\cdot (-2k^{3})", "answer": "16k^{4}", "rule": "multiply numbers, add exponents", "note": "k = k^1; negative times negative is positive"}
+      ]
+    },
+    {
+      "directions": "Multiply. Write your answer in scientific notation.",
+      "questions": [
+        {"n": 15, "skill": "sci-multiply", "expr": "(2 \\times 10^{3})(4 \\times 10^{5})", "answer": "8 \\times 10^{8}", "rule": "multiply numbers, add exponents"},
+        {"n": 16, "skill": "sci-multiply", "expr": "(3 \\times 10^{4})(1.5 \\times 10^{2})", "answer": "4.5 \\times 10^{6}", "rule": "multiply numbers, add exponents"},
+        {"n": 17, "skill": "sci-multiply", "expr": "(2.5 \\times 10^{-3})(3 \\times 10^{6})", "answer": "7.5 \\times 10^{3}", "rule": "multiply numbers, add exponents"},
+        {"n": 18, "skill": "sci-multiply", "expr": "(4 \\times 10^{-2})(2 \\times 10^{-5})", "answer": "8 \\times 10^{-7}", "rule": "multiply numbers, add exponents"},
+        {"n": 19, "skill": "sci-multiply", "expr": "(5 \\times 10^{3})(6 \\times 10^{4})", "answer": "3 \\times 10^{8}", "rule": "multiply numbers, add exponents; 30 ≥ 10 so re-normalize", "note": "30 x 10^7 -> 3 x 10^8"},
+        {"n": 20, "skill": "sci-multiply", "expr": "(8 \\times 10^{-4})(5 \\times 10^{-2})", "answer": "4 \\times 10^{-5}", "rule": "multiply numbers, add exponents; 40 ≥ 10 so re-normalize", "note": "40 x 10^-6 -> 4 x 10^-5"}
+      ]
+    }
+  ]
+}
