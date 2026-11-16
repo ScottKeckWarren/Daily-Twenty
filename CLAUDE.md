@@ -7,7 +7,8 @@ Daily ~20-question math practice PDFs for a 7th grade student, targeting the ski
 - `skills.json` — every skill she's working on: `status` (active / cleared), `streak` (consecutive perfect sheets), `history` (per-sheet asked/missed counts).
 - `sheets/YYYY-MM-DD.json` — the questions on each day's sheet. Each question has `n`, `skill` (id from skills.json), `expr`, and `answer`. Answers stay in the JSON only; no answer key is printed (the parent grades).
 - `output/YYYY-MM-DD.pdf` — rendered sheet. Build with `.venv/bin/python render.py sheets/YYYY-MM-DD.json`.
-- `render.py` — math syntax: `x^{-2}`, `\frac{a}{b}`, `\cdot`. Letters render italic. In JSON, backslashes are doubled (`\\frac`).
+- `sheets/cheat-sheet.json` — reference sheet. Uses `cards` (`heading`, `rules`, `examples`, `tips`) instead of `sections`; update it as new topics come in.
+- `render.py` — math syntax: `\sqrt{a}`, `\sqrt[3]{a}`, `x^{-2}`, `\frac{a}{b}`, `\cdot`. Letters render italic. In JSON, backslashes are doubled (`\\frac`).
 
 ## Daily loop
 
@@ -21,9 +22,10 @@ Daily ~20-question math practice PDFs for a 7th grade student, targeting the ski
    - Weight active skills by recent misses: missed skills get more questions and simpler variants first, then harder ones.
    - Cleared skills: 1–2 review questions every few sheets.
    - Don't reuse exact questions from previous sheets.
-   - Group by directions (sections), easy → hard. Every question gets work space and an answer line (renderer handles this).
+   - Group by directions (sections), easy → hard. Every question gets work space, a "Rule:" line, and an answer line (renderer handles this; daily sheets set `"rule_line": true`). Each question also stores the expected `rule` in the JSON (not printed).
    - Each sheet starts with a "Rules to remember" box and one worked example relevant to the day's focus.
-3. **New skills**: the parent will add new topics over time. Add them to `skills.json` with `status: "active"`, `streak: 0`.
+3. **Bonus color-by-number sheets** (`sheets/<date>-color-by-number.json`): same `sections` format plus `colors` and `grid`. Every answer must be different, and each answer must appear at least twice in the grid (the renderer warns if not). Check the picture with `--key`. Results are reported and tracked the same way as daily sheets.
+4. **New skills**: the parent will add new topics over time. Add them to `skills.json` with `status: "active"`, `streak: 0`.
 
 ## Preferences
 

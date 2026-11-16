@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-27 bonus",
+  "title": "Exponent Color by Number",
+  "intro": "Solve each problem. Then find your answer in the grid on the last page and color those squares\nwith the color from the key. Can't find your answer in the grid? Check your work!",
+  "cell_height": 92,
+  "sections": [
+    {
+      "directions": "Rewrite using only positive exponents.",
+      "questions": [
+        {"n": 1, "skill": "neg-to-pos", "expr": "6^{-2}", "answer": "\\frac{1}{6^{2}}"},
+        {"n": 2, "skill": "neg-to-pos", "expr": "4m^{-3}", "answer": "\\frac{4}{m^{3}}"},
+        {"n": 3, "skill": "neg-to-pos", "expr": "\\frac{1}{c^{-5}}", "answer": "c^{5}"}
+      ]
+    },
+    {
+      "directions": "Rewrite using a negative exponent.",
+      "questions": [
+        {"n": 4, "skill": "pos-to-neg", "expr": "\\frac{1}{9^{4}}", "answer": "9^{-4}"},
+        {"n": 5, "skill": "pos-to-neg", "expr": "\\frac{7}{y^{2}}", "answer": "7y^{-2}"}
+      ]
+    },
+    {
+      "directions": "Evaluate. Write your answer as a whole number or a fraction.",
+      "questions": [
+        {"n": 6, "skill": "eval-neg", "expr": "3^{-3}", "answer": "\\frac{1}{27}"},
+        {"n": 7, "skill": "eval-neg", "expr": "(-5)^{-2}", "answer": "\\frac{1}{25}"},
+        {"n": 8, "skill": "eval-neg", "expr": "\\frac{1}{2^{-6}}", "answer": "64"}
+      ]
+    },
+    {
+      "directions": "Simplify. Write your answer using only positive exponents.",
+      "questions": [
+        {"n": 9, "skill": "simplify-product", "expr": "x^{8} \\cdot x^{-5}", "answer": "x^{3}"},
+        {"n": 10, "skill": "simplify-product", "expr": "b^{-3} \\cdot b^{-4}", "answer": "\\frac{1}{b^{7}}"},
+        {"n": 11, "skill": "simplify-quotient", "expr": "\\frac{k^{2}}{k^{-3}}", "answer": "k^{5}"},
+        {"n": 12, "skill": "simplify-quotient", "expr": "\\frac{z^{-6}}{z^{-2}}", "answer": "\\frac{1}{z^{4}}"},
+        {"n": 13, "skill": "simplify-quotient", "expr": "\\frac{p^{4}}{p^{9}}", "answer": "\\frac{1}{p^{5}}"},
+        {"n": 14, "skill": "simplify-power", "expr": "(w^{-3})^{2}", "answer": "\\frac{1}{w^{6}}"},
+        {"n": 15, "skill": "simplify-power", "expr": "(r^{-2})^{-4}", "answer": "r^{8}"},
+        {"n": 16, "skill": "simplify-power", "expr": "(h^{5})^{-1}", "answer": "\\frac{1}{h^{5}}"}
+      ]
+    }
+  ],
+  "seed": 27,
+  "colors": [
+    {"code": "R", "name": "Red", "rgb": [0.90, 0.20, 0.20], "questions": [1, 12]},
+    {"code": "O", "name": "Orange", "rgb": [0.98, 0.58, 0.15], "questions": [5, 9]},
+    {"code": "Y", "name": "Yellow", "rgb": [0.99, 0.88, 0.20], "questions": [3, 14]},
+    {"code": "G", "name": "Green", "rgb": [0.30, 0.72, 0.30], "questions": [4, 10]},
+    {"code": "B", "name": "Blue", "rgb": [0.20, 0.42, 0.85], "questions": [2, 15]},
+    {"code": "P", "name": "Purple", "rgb": [0.55, 0.30, 0.70], "questions": [6, 11]},
+    {"code": "S", "name": "Light Blue", "rgb": [0.62, 0.84, 0.96], "questions": [7, 13]},
+    {"code": "W", "name": "White (no color)", "rgb": [1, 1, 1], "questions": [8, 16]}
+  ],
+  "grid": [
+    "SSSSSSSSSSSSSSSSSSSS",
+    "SSSSWWSSSSSSSSSWWSSS",
+    "SSSWWWWSSSSSSWWWWWSS",
+    "SSWWWWWWSSSSWWWWWWWS",
+    "SSSSSSSSRRRRSSSSSSSS",
+    "SSSSSRRROOOORRRSSSSS",
+    "SSSSROOOYYYYOOORSSSS",
+    "SSSROOYYGGGGYYOORSSS",
+    "SSROYYGGBBBBGGYYORSS",
+    "SROOYGBBPPPPBBGYOORS",
+    "SROYGBBPSSSSPBBGYORS",
+    "RWWYGBPSSSSSSPBGYWWR",
+    "WWWWBPSSSSSSSSPBWWWW",
+    "WWWWWPSSSSSSSSPWWWWW"
+  ]
+}
