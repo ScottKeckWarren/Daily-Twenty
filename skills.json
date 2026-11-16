@@ -90,6 +90,15 @@
       "status": "active",
       "streak": 0,
       "history": []
+    },
+    {
+      "id": "sci-divide",
+      "topic": "scientific notation",
+      "name": "Divide numbers in scientific notation (divide numbers, subtract exponents, re-normalize)",
+      "examples": ["\\frac{8 \\times 10^{6}}{2 \\times 10^{2}} = 4 \\times 10^{4}", "\\frac{2 \\times 10^{5}}{5 \\times 10^{2}} = 4 \\times 10^{2}"],
+      "status": "active",
+      "streak": 0,
+      "history": []
     }
   ]
 }

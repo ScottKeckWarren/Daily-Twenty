@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-05",
+  "title": "Dividing Scientific Notation & Monomials",
+  "rule_line": true,
+  "reminder": [
+    "a^{-n} = \\frac{1}{a^{n}}",
+    "a^{m} \\cdot a^{n} = a^{m+n}",
+    "\\frac{a^{m}}{a^{n}} = a^{m-n}",
+    "(a^{m})^{n} = a^{mn}",
+    "\\text{Scientific: }a \\times 10^{n}\\text{, }1 ≤ a < 10",
+    "\\text{Multiply: } \\times \\text{ numbers, + exponents}",
+    "\\text{Divide: } ÷ \\text{ numbers, − exponents}"
+  ],
+  "example": {
+    "label": "Example: divide in scientific notation",
+    "steps": [
+      "\\frac{1.5 \\times 10^{6}}{3 \\times 10^{-2}}",
+      "= (1.5 ÷ 3) \\times 10^{6-(-2)}",
+      "= 0.5 \\times 10^{8}",
+      "= 5 \\times 10^{7}",
+      "\\text{Rule: divide numbers, subtract exponents.}",
+      "\\text{0.5 < 1, so move the decimal right, subtract 1.}"
+    ]
+  },
+  "sections": [
+    {
+      "directions": "Rewrite using only positive exponents.",
+      "questions": [
+        {
+          "n": 1,
+          "skill": "neg-to-pos",
+          "expr": "8^{-4}",
+          "answer": "\\frac{1}{8^{4}}",
+          "rule": "negative exponent: flip to the denominator"
+        },
+        {
+          "n": 2,
+          "skill": "neg-to-pos",
+          "expr": "6k^{-5}",
+          "answer": "\\frac{6}{k^{5}}",
+          "rule": "only k flips; the 6 stays on top"
+        }
+      ]
+    },
+    {
+      "directions": "Evaluate. Write your answer as a whole number or a fraction.",
+      "questions": [
+        {
+          "n": 3,
+          "skill": "eval-neg",
+          "expr": "5^{-3}",
+          "answer": "\\frac{1}{125}",
+          "rule": "flip, then evaluate 5^3"
+        },
+        {
+          "n": 4,
+          "skill": "eval-neg",
+          "expr": "\\frac{1}{4^{-2}}",
+          "answer": "16",
+          "rule": "flip to the numerator, then evaluate 4^2"
+        }
+      ]
+    },
+    {
+      "directions": "Simplify. Write your answer using only positive exponents.",
+      "questions": [
+        {
+          "n": 5,
+          "skill": "simplify-quotient",
+          "expr": "\\frac{v^{-2}}{v^{5}}",
+          "answer": "\\frac{1}{v^{7}}",
+          "rule": "subtract exponents"
+        },
+        {
+          "n": 6,
+          "skill": "simplify-power",
+          "expr": "(t^{-4})^{3}",
+          "answer": "\\frac{1}{t^{12}}",
+          "rule": "multiply exponents"
+        }
+      ]
+    },
+    {
+      "directions": "Write in scientific notation.",
+      "questions": [
+        {
+          "n": 7,
+          "skill": "to-sci",
+          "expr": "830,000",
+          "answer": "8.3 \\times 10^{5}",
+          "rule": "number ≥ 10: positive exponent"
+        },
+        {
+          "n": 8,
+          "skill": "to-sci",
+          "expr": "0.000057",
+          "answer": "5.7 \\times 10^{-5}",
+          "rule": "number < 1: negative exponent"
+        }
+      ]
+    },
+    {
+      "directions": "Write in standard form.",
+      "questions": [
+        {
+          "n": 9,
+          "skill": "from-sci",
+          "expr": "6.2 \\times 10^{4}",
+          "answer": "62,000",
+          "rule": "positive exponent: move decimal right"
+        },
+        {
+          "n": 10,
+          "skill": "from-sci",
+          "expr": "1.09 \\times 10^{-4}",
+          "answer": "0.000109",
+          "rule": "negative exponent: move decimal left"
+        }
+      ]
+    },
+    {
+      "directions": "Multiply. Simplify your answer.",
+      "questions": [
+        {
+          "n": 11,
+          "skill": "monomials",
+          "expr": "2f^{3} \\cdot f^{6}",
+          "answer": "2f^{9}",
+          "rule": "multiply numbers, add exponents"
+        },
+        {
+          "n": 12,
+          "skill": "monomials",
+          "expr": "8g^{2} \\cdot 3g^{5}",
+          "answer": "24g^{7}",
+          "rule": "multiply numbers, add exponents"
+        },
+        {
+          "n": 13,
+          "skill": "monomials",
+          "expr": "-7u \\cdot 4u^{6}",
+          "answer": "-28u^{7}",
+          "rule": "multiply numbers, add exponents",
+          "note": "u = u^1"
+        },
+        {
+          "n": 14,
+          "skill": "monomials",
+          "expr": "-5v^{4} \\cdot (-9v^{2})",
+          "answer": "45v^{6}",
+          "rule": "multiply numbers, add exponents",
+          "note": "negative times negative is positive"
+        }
+      ]
+    },
+    {
+      "directions": "Divide. Simplify your answer.",
+      "questions": [
+        {
+          "n": 15,
+          "skill": "monomials",
+          "expr": "\\frac{21n^{9}}{7n^{4}}",
+          "answer": "3n^{5}",
+          "rule": "divide numbers, subtract exponents"
+        },
+        {
+          "n": 16,
+          "skill": "monomials",
+          "expr": "\\frac{30s^{5}}{-6s^{2}}",
+          "answer": "-5s^{3}",
+          "rule": "divide numbers, subtract exponents"
+        },
+        {
+          "n": 17,
+          "skill": "monomials",
+          "expr": "\\frac{-32b^{6}}{8b}",
+          "answer": "-4b^{5}",
+          "rule": "divide numbers, subtract exponents",
+          "note": "b = b^1"
+        },
+        {
+          "n": 18,
+          "skill": "monomials",
+          "expr": "\\frac{-45r^{10}}{-9r^{3}}",
+          "answer": "5r^{7}",
+          "rule": "divide numbers, subtract exponents",
+          "note": "negative over negative is positive"
+        }
+      ]
+    },
+    {
+      "directions": "Multiply. Write your answer in scientific notation.",
+      "questions": [
+        {
+          "n": 19,
+          "skill": "sci-multiply",
+          "expr": "(2 \\times 10^{5})(4.5 \\times 10^{2})",
+          "answer": "9 \\times 10^{7}",
+          "rule": "multiply numbers, add exponents"
+        },
+        {
+          "n": 20,
+          "skill": "sci-multiply",
+          "expr": "(1.5 \\times 10^{-6})(3 \\times 10^{9})",
+          "answer": "4.5 \\times 10^{3}",
+          "rule": "multiply numbers, add exponents"
+        },
+        {
+          "n": 21,
+          "skill": "sci-multiply",
+          "expr": "(1.2 \\times 10^{-3})(7 \\times 10^{8})",
+          "answer": "8.4 \\times 10^{5}",
+          "rule": "multiply numbers, add exponents"
+        },
+        {
+          "n": 22,
+          "skill": "sci-multiply",
+          "expr": "(3 \\times 10^{-2})(2.5 \\times 10^{-4})",
+          "answer": "7.5 \\times 10^{-6}",
+          "rule": "multiply numbers, add exponents"
+        },
+        {
+          "n": 23,
+          "skill": "sci-multiply",
+          "expr": "(6 \\times 10^{5})(7 \\times 10^{3})",
+          "answer": "4.2 \\times 10^{9}",
+          "rule": "multiply numbers, add exponents; 42 ≥ 10 so re-normalize",
+          "note": "42 x 10^8 -> 4.2 x 10^9"
+        },
+        {
+          "n": 24,
+          "skill": "sci-multiply",
+          "expr": "(5 \\times 10^{-7})(8 \\times 10^{2})",
+          "answer": "4 \\times 10^{-4}",
+          "rule": "multiply numbers, add exponents; 40 ≥ 10 so re-normalize",
+          "note": "40 x 10^-5 -> 4 x 10^-4"
+        }
+      ]
+    },
+    {
+      "directions": "Divide. Write your answer in scientific notation.",
+      "questions": [
+        {
+          "n": 25,
+          "skill": "sci-divide",
+          "expr": "\\frac{6 \\times 10^{9}}{3 \\times 10^{4}}",
+          "answer": "2 \\times 10^{5}",
+          "rule": "divide numbers, subtract exponents"
+        },
+        {
+          "n": 26,
+          "skill": "sci-divide",
+          "expr": "\\frac{9 \\times 10^{-3}}{3 \\times 10^{5}}",
+          "answer": "3 \\times 10^{-8}",
+          "rule": "divide numbers, subtract exponents"
+        },
+        {
+          "n": 27,
+          "skill": "sci-divide",
+          "expr": "\\frac{4.5 \\times 10^{6}}{1.5 \\times 10^{-3}}",
+          "answer": "3 \\times 10^{9}",
+          "rule": "divide numbers, subtract exponents"
+        },
+        {
+          "n": 28,
+          "skill": "sci-divide",
+          "expr": "\\frac{6.3 \\times 10^{-8}}{2.1 \\times 10^{-2}}",
+          "answer": "3 \\times 10^{-6}",
+          "rule": "divide numbers, subtract exponents"
+        },
+        {
+          "n": 29,
+          "skill": "sci-divide",
+          "expr": "\\frac{3 \\times 10^{8}}{6 \\times 10^{2}}",
+          "answer": "5 \\times 10^{5}",
+          "rule": "divide numbers, subtract exponents; less than 1 so re-normalize",
+          "note": "0.5 x 10^6 -> 5 x 10^5"
+        },
+        {
+          "n": 30,
+          "skill": "sci-divide",
+          "expr": "\\frac{1.6 \\times 10^{-2}}{8 \\times 10^{5}}",
+          "answer": "2 \\times 10^{-8}",
+          "rule": "divide numbers, subtract exponents; less than 1 so re-normalize",
+          "note": "0.2 x 10^-7 -> 2 x 10^-8"
+        }
+      ]
+    }
+  ]
+}

@@ -62,11 +62,16 @@
         "3.2 \\times 10^{5} = 320,000",
         "\\text{Multiply: multiply numbers, add exponents}",
         "(5 \\times 10^{3})(6 \\times 10^{4}) = 30 \\times 10^{7}",
-        "\\text{          }= 3 \\times 10^{8}"
+        "\\text{          }= 3 \\times 10^{8}",
+        "\\text{Divide: divide numbers, subtract exponents}",
+        "\\frac{2 \\times 10^{5}}{5 \\times 10^{2}} = 0.4 \\times 10^{3}",
+        "\\text{          }= 4 \\times 10^{2}"
       ],
       "tips": [
         "\\text{Number part ≥ 10? Move the decimal}",
-        "\\text{one place left and add 1 to the exponent.}"
+        "\\text{one place left and add 1 to the exponent.}",
+        "\\text{Number part < 1? Move the decimal}",
+        "\\text{one place right and subtract 1.}"
       ]
     },
     {
